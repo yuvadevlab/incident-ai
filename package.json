@@ -1,8 +1,12 @@
 {
-  "name": "incidentai",
+  "name": "incident-ai",
   "version": "1.0.0",
   "description": "IncidentAI — Autonomous AI Site Reliability Engineer & Self-Healing Incident Commander",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuvadevlab/incident-ai.git"
+  },
   "packageManager": "pnpm@12.5.1",
   "bin": {
     "incidentai": "./dist/cli.mjs"
